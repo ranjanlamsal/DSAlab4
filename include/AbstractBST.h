@@ -6,7 +6,9 @@ class AbstractBST{
     virtual bool isEmpty() = 0;
     virtual void add(int key, int value) = 0;
     virtual void remove(int key) = 0;
-    virtual void max(int &output)= 0;
-    virtual void min(int &output)= 0;
-    virtual 
-}
+    virtual void max(int &output) = 0;
+    virtual void min(int &output) = 0;
+    virtual bool exists(int key) = 0;
+    virtual void searchBST(int key) = 0;
+};
+#endif
